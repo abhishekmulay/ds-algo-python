@@ -100,13 +100,28 @@ class SinglyLinkedList(object):
             pointer = pointer.get_next()
         return output + "}"
 
+    def reverse(self):
+        prev = None
+        current = self.head
+        while current:
+            next = current.next
+            current.next = prev
+            prev = current
+            current = next
+
+        # set last as head now
+        self.head = prev
 
 if __name__ == '__main__':
     lst = SinglyLinkedList()
     lst.add(1)
     lst.add(2)
     lst.add(3)
+    print lst
+    lst.reverse()
+    print lst
     print lst.size()
     print str(lst)
     lst.delete(2)
     print str(lst)
+
