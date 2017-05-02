@@ -1,6 +1,7 @@
 ## Algorithms 
 
-###Sorting:
+
+### Sorting:
     1) Insertion sort
     
 
@@ -16,6 +17,6 @@
 
 ====================================
 
-####Sources:
+#### Sources:
 1) https://www.coursera.org/learn/algorithms-part1/
 2) Introduction to Algorithms (CLRS)
