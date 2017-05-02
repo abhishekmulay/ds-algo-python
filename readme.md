@@ -1,26 +1,21 @@
-## Algoritms and data structures I am learning.
+## Algorithms 
 
-1) Single Linked List
+###Sorting:
+    1) Insertion sort
+    
 
-2) Double Linked List
 
-3) Circular Linked List
 
-4) Queue
+====================================
+## Data Structures
 
-5) Priority Queue
+### Lists:
+    1) Single Linked List
+    2) Double Linked List
+    3) Circular Linked List
 
-6) Stack
+====================================
 
-7) Heap
-
-8) Binary tree
-
-9) n-ary tree
-
-10) Graph traversal : BFS
-
-11) Graph traversal : DFS
-
-12) Graph shortest path : Dijikstra's
-
+####Sources:
+1) https://www.coursera.org/learn/algorithms-part1/
+2) Introduction to Algorithms (CLRS)
