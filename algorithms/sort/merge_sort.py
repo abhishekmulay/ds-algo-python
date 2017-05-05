@@ -11,7 +11,7 @@ def merge_sort(arr):
         sortedRight = merge_sort(right)
         print "[merge_sort] sortedRight=", sortedRight
         result = merge(sortedLeft, sortedRight)
-        print "[merge_sort] result=", result
+        print "[merge_sort] result=", result, "\n"
         return result
 
 
@@ -42,7 +42,7 @@ def merge(left, right):
             temp.append(right[index])
 
     arr = list(temp)
-    print "\tmerged:", arr, "\n"
+    print "\tMerged:", arr
     return arr
 
 
@@ -51,10 +51,4 @@ if __name__ == '__main__':
     print "--------------------------------------------------------------------"
     print "\t\t\tUNSORTED: ", data
     print "--------------------------------------------------------------------"
-    print merge_sort(data)
-
-    a = [2, 4, 5, 7]
-    b = [1, 2, 3, 6]
-    c = a + b
-    # merge(a, b)
-    # merge([2, 3, 6], [1, 19])
+    print "SORTED:", merge_sort(data)
